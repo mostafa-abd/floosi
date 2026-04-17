@@ -89,5 +89,11 @@
     "Freelance": "Freelance",
     "Investment": "Investment",
     "Gift": "Gift"
+  },
+  "updates": {
+    "update_available": "Update Available",
+    "update_message": "A new version of Floosi is available with improvements and fixes. Would you like to update now?",
+    "update_now": "Update Now",
+    "update_later": "Later"
   }
 }

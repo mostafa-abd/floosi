@@ -9,6 +9,7 @@ import { useAppStore } from './store/useAppStore';
 import { ThemeProvider } from './components/ThemeProvider';
 import * as SplashScreen from 'expo-splash-screen';
 import './i18n';
+import { useAppUpdates } from './hooks/useAppUpdates';
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync().catch(() => {
@@ -18,6 +19,9 @@ SplashScreen.preventAutoHideAsync().catch(() => {
 export default function App() {
   const fetchTransactions = useTransactionStore((state) => state.fetchTransactions);
   const themeMode = useAppStore((state) => state.themeMode);
+
+  // Check for OTA updates on launch
+  useAppUpdates();
 
   useEffect(() => {
     const setup = async () => {
