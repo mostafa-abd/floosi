@@ -1,7 +1,6 @@
 {
   "cli": {
-    "version": ">= 13.4.1",
-    "appConfig": "app.json"
+    "version": ">= 13.4.1"
   },
   "build": {
     "development": {
