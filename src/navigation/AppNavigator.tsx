@@ -15,14 +15,14 @@ import { useTheme } from '../components/ThemeProvider';
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
-const HeaderLogo = ({ isRTL, theme }: any) => (
-  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 0 ,width:"100%",justifyContent:isRTL ? "flex-start" : "flex-end"}}>
+const HeaderLogo = ({ theme }: any) => (
+  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
     <Image 
       source={require('../../assets/images/icon.png')} 
       style={{ width: 34, height: 34, borderRadius: 10, resizeMode: 'cover' }} 
     />
     <Text style={{ fontSize: 24, fontWeight: '800', color: theme.colors.text }}>
-      {isRTL ? 'فلوسي' : 'Floosi'}
+      Floosi
     </Text>
   </View>
 );
@@ -77,8 +77,11 @@ function TabNavigator() {
           shadowOpacity: 0,
         },
         headerTitle: '',
-        headerLeft: isRTL ? undefined : () => <HeaderLogo isRTL={isRTL} theme={theme} />,
-        headerRight: isRTL ? () => <HeaderLogo isRTL={isRTL} theme={theme} /> : undefined,
+        headerLeft: () => <HeaderLogo theme={theme} />,
+        headerLeftContainerStyle: {
+          paddingLeft: isRTL ? 0 : 16,
+          paddingRight: isRTL ? 16 : 0,
+        },
       }}
     >
       <Tab.Screen
