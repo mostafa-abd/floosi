@@ -10,12 +10,14 @@
     "newArchEnabled": true,
     "updates": {
       "url": "https://u.expo.dev/417e8fbb-32ad-4ad9-a43e-00a75b083784",
-      "checkOnLaunch": "NEVER",
       "fallbackToCacheTimeout": 0
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.floosi"
+      "bundleIdentifier": "com.anonymous.floosi",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -54,7 +56,8 @@
         {
           "android": {
             "enableProguardInReleaseBuilds": true,
-            "enableShrinkResourcesInReleaseBuilds": true
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableMinifyInReleaseBuilds": true
           }
         }
       ]
