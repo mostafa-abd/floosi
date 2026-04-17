@@ -1,0 +1,93 @@
+{
+  "tab_home": "الرئيسية",
+  "tab_transactions": "العمليات",
+  "tab_reports": "التقارير",
+  "tab_settings": "الاعدادات",
+  
+  "dashboard": {
+    "total_balance": "إجمالي الرصيد",
+    "income": "الدخل",
+    "expenses": "المصروفات",
+    "recent_transactions": "أحدث العمليات",
+    "view_all": "عرض الكل",
+    "no_transactions": "لا توجد عمليات بعد."
+  },
+
+  "transactions": {
+    "search_placeholder": "ابحث في العمليات...",
+    "filter_all": "الكل",
+    "filter_income": "دخل",
+    "filter_expense": "مصروف",
+    "no_transactions_found": "لم يتم العثور على عمليات."
+  },
+
+  "add_transaction": {
+    "title": "إضافة عملية",
+    "expense": "مصروف",
+    "income": "دخل",
+    "amount_label": "المبلغ",
+    "category_label": "الفئة",
+    "category_placeholder": "أو أدخل فئة مخصصة",
+    "note_label": "ملاحظة (اختياري)",
+    "note_placeholder": "ما هو الغرض من هذه العملية؟",
+    "save_btn": "حفظ العملية",
+    "error_invalid_amount": "يرجى إدخال مبلغ صحيح أكبر من 0.",
+    "error_missing_category": "يرجى اختيار أو إدخال الفئة.",
+    "error_save_failed": "فشل في حفظ العملية."
+  },
+
+  "reports": {
+    "filter_today": "اليوم",
+    "filter_week": "هذا الأسبوع",
+    "filter_month": "هذا الشهر",
+    "filter_custom": "مخصص",
+    "spending_chart_title": "معدل الصرف",
+    "category_chart_title": "فئات المصروفات",
+    "no_data_trend": "لا توجد بيانات للفترة المحددة",
+    "no_expense_data": "لا توجد بيانات لمصروفات",
+    "summary_title": "ملخص الإحصائيات",
+    "total_transactions": "إجمالي العمليات",
+    "avg_daily_expense": "متوسط المصروف اليومي",
+    "select_start_date": "تاريخ البدء",
+    "select_end_date": "تاريخ الانتهاء"
+  },
+
+  "settings": {
+    "data_management": "إدارة البيانات",
+    "export_json": "تصدير البيانات",
+    "clear_all": "حذف كل البيانات",
+    "preferences": "التفضيلات",
+    "language": "Language / اللغة",
+    "theme": "المظهر",
+    "about": "حول التطبيق",
+    "privacy_policy": "سياسة الخصوصية",
+    "app_version": "إصدار التطبيق",
+    "created_by": "بواسطة Mostafa",
+    "clear_alert_title": "حذف كل البيانات",
+    "clear_alert_msg": "هل أنت متأكد من حذف جميع العمليات؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "delete_everything": "تأكيد الحذف",
+    "success": "نجاح",
+    "clear_success_msg": "تم مسح جميع البيانات بنجاح.",
+    "no_data_title": "لا توجد بيانات",
+    "no_data_export_msg": "لا توجد عمليات لتصديرها.",
+    "export_success_title": "تم التصدير بنجاح",
+    "export_failed_title": "فشل التصدير",
+    "privacy_msg": "يتم حفظ جميع بياناتك محلياً على جهازك ولا يتم مشاركتها أبداً مع أية خدمات سحابية."
+  },
+
+  "categories": {
+    "Food": "طعام",
+    "Transport": "مواصلات",
+    "Rent": "إيجار",
+    "Shopping": "تسوق",
+    "Bills": "فواتير",
+    "Health": "صحة",
+    "Entertainment": "ترفيه",
+    "Others": "أخرى",
+    "Salary": "راتب",
+    "Freelance": "عمل حر",
+    "Investment": "استثمار",
+    "Gift": "هدية"
+  }
+}

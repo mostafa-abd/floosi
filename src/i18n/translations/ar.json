@@ -1,0 +1,61 @@
+{
+  "common": {
+    "currency": "ج.م",
+    "save": "حفظ",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "ok": "تم",
+    "income": "دخل",
+    "expense": "مصروف",
+    "total_balance": "إجمالي الرصيد",
+    "recent_transactions": "آخر العمليات",
+    "view_all": "عرض الكل",
+    "all": "الكل",
+    "no_transactions": "لا توجد عمليات بعد.",
+    "no_results": "لا توجد نتائج."
+  },
+  "dashboard": {
+    "title": "لوحة التحكم"
+  },
+  "transactions": {
+    "title": "المعاملات",
+    "search_placeholder": "ابحث في المعاملات..."
+  },
+  "add_transaction": {
+    "title": "إضافة معاملة",
+    "amount_label": "المبلغ",
+    "category_label": "الفئة",
+    "note_label": "ملاحظة (اختياري)",
+    "note_placeholder": "فيما تم صرف هذا؟",
+    "custom_category_placeholder": "أو أدخل فئة مخصصة",
+    "save_button": "حفظ المعاملة"
+  },
+  "reports": {
+    "title": "التقارير",
+    "daily_spending": "الإنفاق اليومي (آخر 7 أيام)",
+    "expense_categories": "فئات المصروفات",
+    "summary_statistics": "إحصائيات ملخصة",
+    "total_count": "إجمالي المعاملات",
+    "avg_daily": "متوسط الإنفاق اليومي",
+    "filter_title": "تصفية التقارير",
+    "today": "اليوم",
+    "this_week": "هذا الأسبوع",
+    "this_month": "هذا الشهر",
+    "custom_range": "فترة مخصصة",
+    "apply": "تطبيق الفلتر"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "data_management": "إدارة البيانات",
+    "export_json": "تصدير البيانات كـ JSON",
+    "clear_data": "مسح كل البيانات",
+    "about": "حول التطبيق",
+    "privacy": "سياسة الخصوصية",
+    "app_version": "إصدار التطبيق",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "theme_light": "فاتح",
+    "theme_dark": "داكن",
+    "theme_system": "تلقائي"
+  }
+}

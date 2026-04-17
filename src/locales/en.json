@@ -1,0 +1,93 @@
+{
+  "tab_home": "Dashboard",
+  "tab_transactions": "Transactions",
+  "tab_reports": "Reports",
+  "tab_settings": "Settings",
+  
+  "dashboard": {
+    "total_balance": "Total Balance",
+    "income": "Income",
+    "expenses": "Expenses",
+    "recent_transactions": "Recent Transactions",
+    "view_all": "View All",
+    "no_transactions": "No transactions yet."
+  },
+
+  "transactions": {
+    "search_placeholder": "Search transactions...",
+    "filter_all": "All",
+    "filter_income": "Income",
+    "filter_expense": "Expense",
+    "no_transactions_found": "No transactions found."
+  },
+
+  "add_transaction": {
+    "title": "Add Transaction",
+    "expense": "Expense",
+    "income": "Income",
+    "amount_label": "Amount",
+    "category_label": "Category",
+    "category_placeholder": "Or enter custom category",
+    "note_label": "Note (Optional)",
+    "note_placeholder": "What was this for?",
+    "save_btn": "Save Transaction",
+    "error_invalid_amount": "Please enter a valid amount greater than 0.",
+    "error_missing_category": "Please select or enter a category.",
+    "error_save_failed": "Failed to save transaction."
+  },
+
+  "reports": {
+    "filter_today": "Today",
+    "filter_week": "This Week",
+    "filter_month": "This Month",
+    "filter_custom": "Custom",
+    "spending_chart_title": "Spending Trend",
+    "category_chart_title": "Expense Categories",
+    "no_data_trend": "No data for selected period",
+    "no_expense_data": "No expense data available",
+    "summary_title": "Summary Statistics",
+    "total_transactions": "Total Transactions",
+    "avg_daily_expense": "Avg. Daily Expense",
+    "select_start_date": "Start Date",
+    "select_end_date": "End Date"
+  },
+
+  "settings": {
+    "data_management": "Data Management",
+    "export_json": "Export Data as JSON",
+    "clear_all": "Clear All Data",
+    "preferences": "Preferences",
+    "language": "Language / اللغة",
+    "theme": "Theme",
+    "about": "About",
+    "privacy_policy": "Privacy Policy",
+    "app_version": "App Version",
+    "created_by": "Created by Mostafa",
+    "clear_alert_title": "Clear All Data",
+    "clear_alert_msg": "Are you sure you want to delete all transactions? This action cannot be undone.",
+    "cancel": "Cancel",
+    "delete_everything": "Delete Everything",
+    "success": "Success",
+    "clear_success_msg": "All data has been cleared.",
+    "no_data_title": "No Data",
+    "no_data_export_msg": "There are no transactions to export.",
+    "export_success_title": "Export Successful",
+    "export_failed_title": "Export Failed",
+    "privacy_msg": "Your data is stored locally on this device and is never shared with any cloud service."
+  },
+
+  "categories": {
+    "Food": "Food",
+    "Transport": "Transport",
+    "Rent": "Rent",
+    "Shopping": "Shopping",
+    "Bills": "Bills",
+    "Health": "Health",
+    "Entertainment": "Entertainment",
+    "Others": "Others",
+    "Salary": "Salary",
+    "Freelance": "Freelance",
+    "Investment": "Investment",
+    "Gift": "Gift"
+  }
+}

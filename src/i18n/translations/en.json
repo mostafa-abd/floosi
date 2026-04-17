@@ -1,0 +1,61 @@
+{
+  "common": {
+    "currency": "EGP",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "income": "Income",
+    "expense": "Expense",
+    "total_balance": "Total Balance",
+    "recent_transactions": "Recent Transactions",
+    "view_all": "View All",
+    "all": "All",
+    "no_transactions": "No transactions yet.",
+    "no_results": "No results found."
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "search_placeholder": "Search transactions..."
+  },
+  "add_transaction": {
+    "title": "Add Transaction",
+    "amount_label": "Amount",
+    "category_label": "Category",
+    "note_label": "Note (Optional)",
+    "note_placeholder": "What was this for?",
+    "custom_category_placeholder": "Or enter custom category",
+    "save_button": "Save Transaction"
+  },
+  "reports": {
+    "title": "Reports",
+    "daily_spending": "Daily Spending (Last 7 Days)",
+    "expense_categories": "Expense Categories",
+    "summary_statistics": "Summary Statistics",
+    "total_count": "Total Transactions",
+    "avg_daily": "Avg. Daily Expense",
+    "filter_title": "Filter Reports",
+    "today": "Today",
+    "this_week": "This Week",
+    "this_month": "This Month",
+    "custom_range": "Custom Range",
+    "apply": "Apply Filter"
+  },
+  "settings": {
+    "title": "Settings",
+    "data_management": "Data Management",
+    "export_json": "Export Data as JSON",
+    "clear_data": "Clear All Data",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "app_version": "App Version",
+    "language": "Language",
+    "theme": "Theme",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "theme_system": "System"
+  }
+}
